@@ -51,6 +51,7 @@ class MyHomePage extends StatelessWidget {
                             style: TextStyle(color: Colors.red)));
                       },
                     ),
+
                     const SizedBox(height: 20),
 
                     Image.asset(
@@ -62,6 +63,7 @@ class MyHomePage extends StatelessWidget {
                         style: TextStyle(color: Colors.red));
                      },
                     ),
+
                     const SizedBox(height: 20),
 
                     Container( // กล่องสีอำพันจากแล็บ บทที่ 3
@@ -81,7 +83,9 @@ class MyHomePage extends StatelessWidget {
                         ),
                       ),
                     ),
+
                     const SizedBox(height: 30),
+
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
@@ -89,17 +93,19 @@ class MyHomePage extends StatelessWidget {
                         child: const Text('Elevated'),
                         ),
 
+
                         const SizedBox(width: 10),
-
-
                         OutlinedButton(onPressed: () { print('กดปุ่ม Outlined'); },
                         child: const Text('Outlined'),
                         ),
+
 
                         const SizedBox(width: 10),
                         TextButton(onPressed: () { print('กดปุ่ม Text'); },
                         child: const Text('Text'),
                         ),
+
+
                       ],
                     ),
 
@@ -110,6 +116,7 @@ class MyHomePage extends StatelessWidget {
                     tooltip: 'ข้อมูล',
                     color: Colors.blueGrey,
                     ),
+
                   ],
               ),
       ),
