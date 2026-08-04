@@ -93,18 +93,15 @@ class MyHomePage extends StatelessWidget {
                         child: const Text('Elevated'),
                         ),
 
-
                         const SizedBox(width: 10),
                         OutlinedButton(onPressed: () { print('กดปุ่ม Outlined'); },
                         child: const Text('Outlined'),
                         ),
 
-
                         const SizedBox(width: 10),
                         TextButton(onPressed: () { print('กดปุ่ม Text'); },
                         child: const Text('Text'),
                         ),
-
 
                       ],
                     ),
